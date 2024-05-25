@@ -1164,8 +1164,6 @@
     const date = new Date();
     try {
       const data = {
-        checkin_time:
-          date.toLocaleDateString() + " " + date.toLocaleTimeString(),
         license_plate: $("#license_plate_val").val(),
         owner_name: $("#owner_name").val(),
         vehicle_type: $("#vehicle_type").val(),
@@ -1336,8 +1334,6 @@
       const data = JSON.parse(car);
       const date = new Date();
       const updateData = {
-        checkin_time:
-          date.toLocaleDateString() + " " + date.toLocaleTimeString(),
         brand: $("#brand").val(),
         engine_capacity: $("#engine_capacity").val(),
         license_plate: $("#license_plate_val").val(),

@@ -1,12 +1,11 @@
 import json
 import math
 import re
-from selenium.webdriver.common.by import By
-import time
+
 
 # import undetected_chromedriver as uc
 import asyncio
-import time
+
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 from function.provinces import PROVINCE_CODES

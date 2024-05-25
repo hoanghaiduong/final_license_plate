@@ -13,7 +13,7 @@ class Cars(BaseModel):
     id: Optional[str] = None
     # id: str = Field(default_factory=lambda: str(uuid.uuid4()), alias="_id")  # Sử dụng str(uuid.uuid4()) để tạo UUID mới
     province: str = None
-    checkin_time: str
+  
     license_plate: str
     violations: Optional[Union[List[Dict[str, str]], str]] = (
         None  # Kiểu dữ liệu Union cho phép sử dụng nhiều kiểu dữ liệu khác nhau
@@ -26,7 +26,7 @@ class Cars(BaseModel):
     engine_capacity: str
     original_image: str
     cropped_image: str
-    checkout_time: str = None
+   
     created_at: datetime = Field(default_factory=datetime.now)
     updated_at: datetime = Field(default_factory=datetime.now)
 

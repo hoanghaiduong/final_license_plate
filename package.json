@@ -5,6 +5,7 @@
   "main": "app.py",
   "scripts": {
     "start": "python app.py --reload",
+    "start-backend": "python -m app.py",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

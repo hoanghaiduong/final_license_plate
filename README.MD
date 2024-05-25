@@ -23,11 +23,41 @@ This project is a Car Check-In/Check-Out Logging System, which allows users to l
 
 ## Installation
 
-1. Chạy lệnh:
+1. Tạo và kích hoạt môi trường ảo:
+
    ```bash
    python -m venv venv
-   On Windows use 'venv\Scripts\activate'
+
+   ```
+
+2. Kích hoạt môi trường ảo:
+   Trên macOS/Linux:
+
+   ```bash
+   source venv/bin/activate
+   ```
+
+   Trên Windows:
+
+   ```bash
+   venv\Scripts\activate
+   ```
+
+3. Cài đặt các gói phụ thuộc:
+
+   ```bash
    python -m pip install -r requirements.txt
+   ```
+
+4. Cài đặt các gói npm (nếu dự án có phần frontend hoặc cần npm):
+
+   ```bash
    npm install --force
-   python -m app.py #run app
+   ```
+
+5. Chạy ứng dụng:
+
+   ```bash
+
+   python app.py
    ```

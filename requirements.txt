@@ -1,5 +1,6 @@
 Flask
 flask-socketio
+flask[async]
 flask-cors
 opencv-python
 numpy
@@ -13,7 +14,7 @@ requests
 pandas
 seaborn
 IPython
-playwright
+playwright #after please bash 'playwright install' 
 pydantic
 python-dotenv
 pymongo

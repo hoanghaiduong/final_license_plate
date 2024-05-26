@@ -49,6 +49,12 @@ This project is a Car Check-In/Check-Out Logging System, which allows users to l
    python -m pip install -r requirements.txt
    ```
 
+   Playwright Installation:
+
+   ```bash
+   playwright install
+   ```
+
 4. Cài đặt các gói npm (nếu dự án có phần frontend hoặc cần npm):
 
    ```bash
